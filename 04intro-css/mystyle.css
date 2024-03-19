@@ -1,0 +1,53 @@
+
+
+body {
+  background-color: #8cdff0;
+}
+
+body {
+font-family: fot-seurat-pron, sans-serif;
+}
+/* weight doesnt seem to work */
+h1 {font-weight: 900;}
+h2 {font-weight: 700;}
+p {font-size: 100%;}
+li {font-weight: 100; font-size: 80%;}
+dt {font-size: 120%;}
+nav {font-size: 150%;}
+ul {list-style-type: circle;
+padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 100px;}
+ul, ol {
+  border: 5px ridge #d0f2f9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: #8cdff0; border-radius: 25px;
+}
+dl {margin-left: 60px; padding-left: 40px; border: 5px ridge #d0f2f9; border-radius: 25px;}
+a:hover {
+  color: #efeb09;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #8cdff0;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 5px ridge #d0f2f9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+nav > div {
+  
+  width: 400px;
+  margin: 1px;
+  text-align: center;
+  line-height: 100px;
+  }
+  nav > div > a {text-decoration: none;}
