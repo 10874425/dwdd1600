@@ -8,9 +8,9 @@ body {
 font-family: fot-seurat-pron, sans-serif;
 }
 /* weight doesnt seem to work */
-h1 {font-weight: 900;}
-h2 {font-weight: 700;}
-p {font-size: 100%;}
+h1 {font-weight: 900; font-size: 400%;}
+h2 {font-weight: 700; font-size: 200%;}
+p {font-size: 100%; }
 li {font-weight: 100; font-size: 80%;}
 dt {font-size: 120%;}
 nav {font-size: 150%;}
@@ -25,16 +25,22 @@ ul, ol {
   margin-bottom: 100px;
   margin-right: 150px;
   margin-left: 80px;
-  background-color: #8cdff0; border-radius: 25px;
+  background-color: #b9ecf6; border-radius: 25px;
 }
-dl {margin-left: 60px; padding-left: 40px; border: 5px ridge #d0f2f9; border-radius: 25px;}
+dl {margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px; border: 5px ridge #d0f2f9; border-radius: 25px;
+background-color: #b9ecf6;
+text-align: center;
+}
 a:hover {
   color: #efeb09;
 }
 nav {
   display: flex;
   flex-wrap: nowrap;
-  background-color: #8cdff0;
+  background-color: #b9ecf6;
   flex-direction: row;
   border-radius: 25px;
   border: 5px ridge #d0f2f9;
@@ -51,3 +57,10 @@ nav > div {
   line-height: 100px;
   }
   nav > div > a {text-decoration: none;}
+  
+  nav div.redundant a {
+  background-color: lightgray;
+  color: gray;
+  }
+ footer { background-color: #02f001; text-align: center; }
+ header { background-color: #02f001; text-align: center; }
