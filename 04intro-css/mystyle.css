@@ -37,7 +37,11 @@ text-align: center;
 a:hover {
   color: #efeb09;
 }
-nav {
+nav a {
+display: block;
+}
+nav  ul {
+list-style-type: none;
   display: flex;
   flex-wrap: nowrap;
   background-color: #b9ecf6;
@@ -49,16 +53,16 @@ nav {
   margin-right: 150px;
   margin-left: 80px;
 }
-nav > div {
+nav  ul  li {
   
-  width: 400px;
+  width: 200px;
   margin: 1px;
   text-align: center;
-  line-height: 100px;
+  line-height: 50px;
   }
-  nav > div > a {text-decoration: none;}
+  nav  ul  li  a {text-decoration: none;}
   
-  nav div.redundant a {
+  nav li.redundant a {
   background-color: lightgray;
   color: gray;
   }
