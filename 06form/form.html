@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<!-- the font i am using is on adobe not google -->
+<script src="https://use.typekit.net/arp6tch.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<!-- the font is above this note -->
+
+<!-- if i have to use a google one i could change it to the one below this note -->
+<link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+
+
+<title>form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="description" content="Pikmin 2 Interactive map">
+<meta name="author" content="Josh Morey">
+<link rel="stylesheet" href="mystyle.css">
+
+
+</head>
+<header>
+<h1 id="top">Pikmin 2 interactive map</h1>
+<p>Text Build</p>
+</header>
+<h1>form</h1>
+<nav>
+<ul>
+<li><a href="index.html">main page</a></li>
+<li><a href="area1.html">Valley of Repose </a></li>
+<li class="redundant"><a href="form.html">form</a></li>
+<li><a href="gallery.html">gallery</a></li>
+</ul>
+</nav>
+<main>
+<form method="get" class="myform" action="thanks.html">
+
+<fieldset>
+<legend>give info</legend>
+<br>
+
+<label class="req"><input type="text" id="text" name="text" required> name (required)</label> <br>
+
+<label class="req"><input type="email" id="mail" name="mail" required> email (required)</label><br>
+
+<input type="tel" id="phone" name="phone"> phone
+
+</fieldset>
+
+<fieldset>
+<legend>is this site helpful</legend>
+<br>
+
+<label><input type="radio" id="on" name="on">
+yes</label>
+<br>
+
+<label><input type="radio" id="off" name="on">
+no</label>
+</fieldset>
+
+<fieldset>
+<legend>favorite pikmin protagonist groups</legend> <br>
+<label><input type="checkbox" id="check1" name="check1">
+Hocotate freight</label>
+<br>
+
+<label><input type="checkbox" id="check2" name="check2">
+Kopai explorers</label>
+<br>
+
+<label><input type="checkbox" id="check3" name="check3">
+Rescue team</label>
+</fieldset>
+
+<fieldset>
+<legend>what type of pikmin games do you prefer</legend>
+<br>
+<select>
+<option>time management</option>
+<option>type management</option>
+<option>both</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+<legend class="req">thoughts (required)</legend>
+<br>
+<textarea required>tell me your thoughts</textarea>
+
+</fieldset>
+
+<input type="submit" value="give feedback">
+</form>
+
+
+
+</main>
+<footer>
+<a href="#top">back to top</a>
+<p>&copy; 2024 &bull; Josh Morey &bull; Im not giving out my phone number
+</p>
+<a href="https://www.pikminwiki.com/" target="_blank">Pikmin wiki</a>
+<a href="https://www.nintendo.com/us/pikmin-1-2/" target="_blank">Buy Pikmin</a>
+</footer>
+<address>
+<a href="mailto:10874425@uvu.edu">Email</a>
+</address>
+
+
+</html>

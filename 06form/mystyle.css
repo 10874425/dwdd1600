@@ -1,0 +1,135 @@
+
+
+body {
+  background-color: #8cdff0;
+}
+
+body {
+font-family: fot-seurat-pron, sans-serif;
+}
+/* weight doesnt seem to work */
+h1 {font-weight: 900; font-size: 400%;}
+h2 {font-weight: 700; font-size: 200%;}
+p {font-size: 100%; }
+li {font-weight: 100; font-size: 80%;}
+dt {font-size: 120%;}
+nav {font-size: 150%;}
+ul {list-style-type: circle;
+padding-top: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 100px;}
+ul, ol {
+  border: 5px ridge #d0f2f9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: #b9ecf6; border-radius: 25px;
+}
+dl {margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px; border: 5px ridge #d0f2f9; border-radius: 25px;
+background-color: #b9ecf6;
+text-align: center;
+}
+a:hover {
+  color: #efeb09;
+}
+nav a {
+display: block;
+}
+nav  ul {
+list-style-type: none;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #b9ecf6;
+  flex-direction: row;
+  border-radius: 25px;
+  border: 5px ridge #d0f2f9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+nav  ul  li {
+  
+  width: 200px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  }
+  nav  ul  li  a {text-decoration: none;}
+  
+  nav li.redundant a {
+  background-color: lightgray;
+  color: gray;
+  }
+ footer { background-color: #02f001; text-align: center; }
+ header { background-color: #02f001; text-align: center; }
+ 
+  div.gallery {
+display: flex;
+flex-wrap: wrap;
+}
+div.gallery figure {
+margin: .5rem 2% 00;
+}
+div.gallery figcaption {
+text-align: center;
+font-size: .8rem;
+color: black;
+}
+figure.wrapped {
+width: 30%;
+margin: 0 0 0 2%;
+float: right;
+}
+figure.wrapped img {
+width: 100%;
+height: auto;
+}
+figure.wrapped figcaption {
+text-align: center;
+font-size: .75rem;
+}
+
+
+fieldset {
+border-radius: 25px;
+}
+
+form {
+text-align: left;
+
+}
+
+legend {
+font-size: 30px;
+
+}
+
+input {
+border-radius: 50px;
+}
+
+textarea {
+border-radius: 25px;
+background-color: darkblue;
+color: #efeb09;
+}
+
+input[type=submit] {
+border: ridge;
+background-color: #02f001;
+padding: 10px;
+
+
+}
+
+.req {
+font-style: italic;
+}
+
+
